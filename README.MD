@@ -11,6 +11,7 @@
 
 <h4 align="center">Writing programs, solving problems, and making things that work</h4>
 
+<br>
 
 # The Zen of Python
 ## by Tim Peters

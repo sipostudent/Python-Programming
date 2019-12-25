@@ -11,34 +11,6 @@
 
 <h4 align="center">Writing programs, solving problems, and making things that work</h4>
 
-## Table of Contents
-
-<!--ts-->
-
-1. [Variables & Simple Data Types](#Variables-&-Simple-Data-Types)
-    - [Variables](#Variables)
-        - [Naming and Using Variables](#Naming-and-Using-Variables)
-        - [Avoiding Name Errors When Using Variables](#Avoiding-Name-Errors-When-Using-Variables)
-
-    - [Strings](#Strings)
-        - [Changing Case in a String with Methods](#Changing-Case-in-a-String-with-Methods)
-        - [Combining or Concatenating Strings](#Combining-or-Concatenating-Strings)
-        - [Adding Whitespace to Strings with Tabs or Newlines](#Adding-Whitespace-to-Strings-with-Tabs-or-Newlines)
-        - [Stripping Whitespace](#Stripping-Whitespace)
-        - [Avoiding Syntax Errors with Strings](#Avoiding-Syntax-Errors-with-Strings)
-
-    - [Numbers](#Numbers)
-        - [Integers](#Integers)
-        - [Floats](#Floats)
-        - [Avoiding Type Errors with the str() Function](#Avoiding-Type-Errors-with-the-str()-Function)
-
-    - [Comments](#Comments)
-        - [How Do you Write Comments](#How-Do-you-Write-Comments)
-        - [Floats](#Floats)
-        - [What Kind of Comments Should You Write?](#What-Kind-of-Comments-Should-You-Write?)
-
-2. [The Zen of Python](#The-Zen-of-Python)
-
 
 # The Zen of Python
 ## by Tim Peters

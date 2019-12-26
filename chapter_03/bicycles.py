@@ -41,3 +41,6 @@ print(bicycles[0].title())
 
 """ This example produces the same output as the preceding example
 except 'Trek' is capitalized. """
+
+""" For additional information, refer to official Python documentation 
+which is located at www.python.org """

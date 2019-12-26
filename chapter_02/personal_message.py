@@ -9,3 +9,6 @@ would you like to learn some Python today """
 name = "Eric"
 message = f"Hello, {name.title()}! Would you like to learn some Python today?"
 print(message)
+
+""" For additional information, refer to official Python documentation 
+which is located at www.python.org """

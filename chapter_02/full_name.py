@@ -58,3 +58,6 @@ Each variable is referred to by a set of braces; the braces will be filled by th
 listed in parentheses in the order provided: """
 
 full_name = "{} {}".format(first_name, last_name)
+
+""" For additional information, refer to official Python documentation 
+which is located at www.python.org """

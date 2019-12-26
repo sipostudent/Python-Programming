@@ -9,3 +9,6 @@ name = "Eric Johnson"
 print(name.lower())
 print(name.upper())
 print(name.title())
+
+""" For additional information, refer to official Python documentation 
+which is located at www.python.org """

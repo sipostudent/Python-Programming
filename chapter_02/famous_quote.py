@@ -20,3 +20,6 @@ print('Muhammed Ali once said "float like a butter fly, \nsting like a bee."')
 
 print('Muhammed Ali once said "float like a butterfly,')
 print('sting like a bee."')
+
+""" For additional information, refer to official Python documentation 
+which is located at www.python.org """

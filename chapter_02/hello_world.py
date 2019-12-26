@@ -7,3 +7,6 @@ print(message)
 
 message = "Hello Python Crash Course world!"
 print(message)
+
+""" For additional information, refer to official Python documentation 
+which is located at www.python.org """

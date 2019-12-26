@@ -17,3 +17,6 @@ Adding a variable makes a little more work for the Python interpreter.
 When it processes the first line, it associates the variable message with the
 "Hello Python world!" text. When it reaches the second line, it prints the
 value associated with message to the screen """
+
+""" For additional information, refer to official Python documentation 
+which is located at www.python.org """

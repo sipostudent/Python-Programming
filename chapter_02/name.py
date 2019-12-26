@@ -22,3 +22,6 @@ you won’t want to trust the capitalization that your users provide, so you’l
 convert strings to lowercase before storing them. Then when you want to
 display the information, you’ll use the case that makes the most sense for
 each string. """
+
+""" For additional information, refer to official Python documentation 
+which is located at www.python.org """

@@ -14,3 +14,6 @@ print(name.title)
 print(name.title().rstrip())
 print(name.title().lstrip())
 print(name.title().strip())
+
+""" For additional information, refer to official Python documentation 
+which is located at www.python.org """

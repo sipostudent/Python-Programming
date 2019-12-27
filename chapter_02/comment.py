@@ -4,3 +4,6 @@
 
 # Say hello to everyone.
 print("Hello Python people!")
+
+""" For additional information, refer to official Python documentation 
+which is located at www.python.org """

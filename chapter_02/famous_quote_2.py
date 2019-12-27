@@ -10,3 +10,6 @@ message. """
 famous_person = "muhammed ali"
 message = f'{famous_person.title()} once said "float like a butter fly, \nsting like a bee."' 
 print(message)
+
+""" For additional information, refer to official Python documentation 
+which is located at www.python.org """

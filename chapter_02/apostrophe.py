@@ -15,3 +15,6 @@ causes errors.  """
 
 message = "One of Python's strengths is its diverse community." 
 print(message)
+
+""" For additional information, refer to official Python documentation 
+which is located at www.python.org """

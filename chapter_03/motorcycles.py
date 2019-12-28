@@ -22,5 +22,11 @@ list. When you append an item to a list, the new element is added to the end
 of the list. Using the same list we had in the previous example, we’ll add the
 new element 'ducati' to the end of the list: """
 
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+
+motorcycles.append('ducati')
+print(motorcycles)
+
 """ For additional information, refer to official Python documentation 
 which is located at www.python.org """

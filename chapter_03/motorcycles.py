@@ -60,3 +60,20 @@ affecting any of the other elements in the list: """
 ['honda', 'yamaha', 'suzuki']
 ['honda', 'yamaha', 'suzuki', 'ducati']
 """
+
+""" The append() method makes it easy to build lists dynamically. For
+example, you can start with an empty list and then add items to the list
+using a series of append() calls. Using an empty list, let’s add the elements
+'honda', 'yamaha', and 'suzuki' to the list: """
+
+motorcycles = []
+
+motorcycles.append('honda')
+motorcycles.append('yamaha')
+motorcycles.append('suzuki')
+
+print(motorcycles)
+
+# The resulting list looks exactly the same as the lists in the previous examples:
+
+# Result: ['honda', 'yamaha', 'suzuki']

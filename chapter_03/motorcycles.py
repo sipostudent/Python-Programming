@@ -40,7 +40,7 @@ example, you might want to make new aliens appear in a game, add new
 data to a visualization, or add new registered users to a website you’ve
 built. Python provides several ways to add new data to existing lists. """
 
-## Appending Elements to the End of a List
+# Appending Elements to the End of a List
 
 """ The simplest way to add a new element to a list is to append the item to the
 list. When you append an item to a list, the new element is added to the end
@@ -53,5 +53,10 @@ print(motorcycles)
 motorcycles.append('ducati')
 print(motorcycles)
 
-""" For additional information, refer to official Python documentation 
-which is located at www.python.org """
+""" The append() method at u adds 'ducati' to the end of the list without
+affecting any of the other elements in the list: """
+
+""" Result: 
+['honda', 'yamaha', 'suzuki']
+['honda', 'yamaha', 'suzuki', 'ducati']
+"""

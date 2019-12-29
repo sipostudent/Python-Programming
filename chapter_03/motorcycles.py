@@ -77,3 +77,9 @@ print(motorcycles)
 # The resulting list looks exactly the same as the lists in the previous examples:
 
 # Result: ['honda', 'yamaha', 'suzuki']
+
+""" Building lists this way is very common, because you often won’t know
+the data your users want to store in a program until after the program is
+running. To put your users in control, start by defining an empty list that
+will hold the users’ values. Then append each new value provided to the list
+you just created. """

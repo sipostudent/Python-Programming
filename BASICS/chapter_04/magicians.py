@@ -126,3 +126,77 @@ once without repetition. Let’s write a thank you to the group of magicians
 as a whole, thanking them for putting on an excellent show. To display this
 group message after all of the individual messages have been printed, we
 place the thank you message after the for loop without indentation: """
+
+
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(f"{magician.title()}, that was a great trick!")
+    print(f"I can't wait to see your next trick, {magician.title()}.\n")
+
+    print("Thank you, everyone. That was a great magic show!")
+
+""" Result:
+Alice, that was a great trick!
+I can't wait to see your next trick, Alice.
+David, that was a great trick!
+I can't wait to see your next trick, David.
+Carolina, that was a great trick!
+I can't wait to see your next trick, Carolina.
+Thank you, everyone. That was a great magic show!
+"""
+
+# Forgetting to Indent
+
+""" Always indent the line after the for statement in a loop. If you forget, Python
+will remind you: """
+
+""" The call to print() u should be indented, but it’s not. When Python
+expects an indented block and doesn’t find one, it lets you know which line
+it had a problem with. """
+
+""" LACKS INDENTATION - INCORRECT
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+print(magician)
+"""
+
+""" HAS INDENTATION - CORRECT
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(magician)
+"""
+
+# Forgetting to Indent Additional Lines
+
+""" Sometimes your loop will run without any errors but won’t produce the
+expected result. This can happen when you’re trying to do several tasks in
+a loop and you forget to indent some of its lines.
+For example, this is what happens when we forget to indent the second
+line in the loop that tells each magician we’re looking forward to their next
+trick: """
+
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(f"{magician.title()}, that was a great trick!")
+print(f"I can't wait to see your next trick, {magician.title()}.\n")
+
+""" The call to print() u is supposed to be indented, but because Python
+finds at least one indented line after the for statement, it doesn’t report an
+error. As a result, the first print() call is executed once for each name in the
+list because it is indented. The second print() call is not indented, so it is
+executed only once after the loop has finished running. Because the final
+value associated with magician is 'carolina', she is the only one who receives
+the “looking forward to the next trick” message: """
+
+""" Result:
+Alice, that was a great trick!
+David, that was a great trick!
+Carolina, that was a great trick!
+I can't wait to see your next trick, Carolina. """
+
+""" This is a logical error. The syntax is valid Python code, but the code does
+not produce the desired result because a problem occurs in its logic. If you
+expect to see a certain action repeated once for each item in a list and it’s
+executed only once, determine whether you need to simply indent a line or
+a group of lines. """
+

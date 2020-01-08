@@ -200,3 +200,36 @@ expect to see a certain action repeated once for each item in a list and it’s
 executed only once, determine whether you need to simply indent a line or
 a group of lines. """
 
+
+# Indenting Unnecessarily After the Loop
+
+""" If you accidentally indent code that should run after a loop has finished, that
+code will be repeated once for each item in the list. Sometimes this prompts
+Python to report an error, but often this will result in a logical error.
+For example, let’s see what happens when we accidentally indent the
+line that thanked the magicians as a group for putting on a good show: """
+
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(f"{magician.title()}, that was a great trick!")
+    print(f"I can't wait to see your next trick, {magician.title()}.\n")
+
+    print("Thank you everyone, that was a great magic show!")
+
+""" Because the last print line is indented, it’s printed once for each person in
+the list, as shown here: """
+
+
+""" Result:
+Alice, that was a great trick!
+I can't wait to see your next trick, Alice.
+
+Thank you everyone, that was a great magic show!
+David, that was a great trick!
+I can't wait to see your next trick, David.
+
+Thank you everyone, that was a great magic show!
+Carolina, that was a great trick!
+I can't wait to see your next trick, Carolina.
+
+Thank you everyone, that was a great magic show! """

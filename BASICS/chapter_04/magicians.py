@@ -233,3 +233,63 @@ Carolina, that was a great trick!
 I can't wait to see your next trick, Carolina.
 
 Thank you everyone, that was a great magic show! """
+
+
+""" This is another logical error, similar to the one in “Forgetting to Indent
+Additional Lines” on page 54. Because Python doesn’t know what you’re
+trying to accomplish with your code, it will run all code that is written in
+valid syntax. If an action is repeated many times when it should be executed
+only once, you probably need to unindent the code for that action. """
+
+
+# Forgetting the Colon
+
+""" The colon at the end of a for statement tells Python to interpret the next
+line as the start of a loop. """
+
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians
+    print(magician)
+
+""" Result:
+  File "magicians.py", line 251
+    for magician in magicians
+                            ^
+SyntaxError: invalid syntax 
+"""
+
+""" If you accidentally forget the colon, as shown at u, you’ll get a syntax
+error because Python doesn’t know what you’re trying to do. Although
+this is an easy error to fix, it’s not always an easy error to find. You’d be
+surprised by the amount of time programmers spend hunting down singlecharacter errors like this. Such errors are difficult to find because we often
+just see what we expect to see. """
+
+
+# TRY IT YOURSELF
+
+""" 4-1. Pizzas:  Think of at least three kinds of your favorite pizza. Store these
+pizza names in a list, and then use a for loop to print the name of each pizza. 
+
+# Modify your for loop to print a sentence using the name of the pizza
+instead of printing just the name of the pizza. For each pizza you should
+have one line of output containing a simple statement like I like pepperoni
+pizza.
+
+# Add a line at the end of your program, outside the for loop, that states
+how much you like pizza. The output should consist of three or more lines
+about the kinds of pizza you like and then an additional sentence, such as
+I really love pizza! """
+
+favorite_pizza = [chicken, hawaiian, beef]
+
+
+
+""" 4-2. Animals: Think of at least three different animals that have a common characteristic. Store the names of these animals in a list, and then use a for loop to
+print out the name of each animal.
+
+# Modify your program to print a statement about each animal, such as
+A dog would make a great pet.
+
+# Add a line at the end of your program stating what these animals have in
+common. You could print a sentence such as Any of these animals would
+make a great pet! """

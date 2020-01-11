@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h3 align="center">Self-Taught Programming Practice.</h3>
+<h3 align="center">Self-Taught Programming Practice</h3>
 
 <h4 align="center">Writing programs, solving problems, and making things that work</h4>
 
